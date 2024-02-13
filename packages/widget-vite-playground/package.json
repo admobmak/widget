@@ -1,6 +1,6 @@
 {
-  "name": "@lifi/widget-playground",
-  "version": "1.0.180",
+  "name": "@lifi/widget-vite-playground",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "analyze": "source-map-explorer 'dist/assets/*.js' --no-border-checks",
