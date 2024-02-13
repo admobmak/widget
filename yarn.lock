@@ -3172,6 +3172,7 @@ __metadata:
     "@lifi/sdk": "npm:^3.0.0-alpha.55"
     "@lifi/wallet-management": "npm:^3.0.0-alpha.19"
     "@lifi/widget": "npm:^3.0.0-alpha.28"
+    "@lifi/widget-playground": "npm:^0.1.0"
     "@mui/icons-material": "npm:^5.15.9"
     "@mui/material": "npm:^5.15.7"
     "@mui/material-nextjs": "npm:^5.15.6"
@@ -3192,6 +3193,37 @@ __metadata:
     viem: "npm:^2.7.8"
     wagmi: "npm:^2.5.5"
     zustand: "npm:^4.5.0"
+  languageName: unknown
+  linkType: soft
+
+"@lifi/widget-playground@npm:^0.1.0, @lifi/widget-playground@workspace:packages/widget-playground":
+  version: 0.0.0-use.local
+  resolution: "@lifi/widget-playground@workspace:packages/widget-playground"
+  dependencies:
+    "@types/node": "npm:^20"
+    "@types/react": "npm:^18"
+    "@types/react-dom": "npm:^18"
+    eslint: "npm:^8.56.0"
+    eslint-config-next: "npm:14.1.0"
+    typescript: "npm:^5"
+  peerDependencies:
+    "@lifi/sdk": ^3.0.0-alpha.55
+    "@lifi/wallet-management": ^3.0.0-alpha.19
+    "@lifi/widget": ^3.0.0-alpha.28
+    "@mui/icons-material": ^5.15.9
+    "@mui/material": ^5.15.7
+    "@mui/material-nextjs": ^5.15.6
+    "@solana/wallet-adapter-base": ^0.9.23
+    "@solana/wallet-adapter-react": ^0.15.35
+    "@solana/wallet-adapter-wallets": ^0.19.26
+    "@solana/web3.js": ^1.90.0
+    "@tanstack/react-query": ^5.20.1
+    next: 14.1.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    viem: ^2.7.8
+    wagmi: ^2.5.5
+    zustand: ^4.5.0
   languageName: unknown
   linkType: soft
 
